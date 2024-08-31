@@ -1,16 +1,4 @@
----
-jupyter:
-  colab:
-  kernelspec:
-    display_name: Python 3
-    name: python3
-  language_info:
-    name: python
-  nbformat: 4
-  nbformat_minor: 0
----
 
-::: {.cell .markdown id="KYtknlcGN117"}
 # Tugas 1 VDI - Resume Artikel
 
 > Judul Artikel : Making data viualization more efficient and effective:
@@ -25,9 +13,8 @@ jupyter:
 > Penulis : Guoliang Li, Xuedi Qin, Yuyu Luo, Nan Tang
 
 > Penulis Resume : Sesilia Putri Subandi // 122450012
-:::
 
-::: {.cell .markdown id="Xg7cr3vEToJe"}
+
 ## Abstrak
 
 Visualisasi data berperan penting dalam dunia bisnis yang dipenuhi
@@ -43,10 +30,9 @@ visualisasi data lebih efektif dan efisien.
 1.  Spesifikasi Visualisasi
 2.  Pendekatan Efisien dalam Visualisasi Data
 3.  Rekomendasi Visualisasi Data
-:::
 
-::: {.cell .markdown id="K2ODS4mjY11r"}
-## 1. Pendahuluan {#1-pendahuluan}
+
+## 1. Pendahuluan
 
 Visualisasi data mengubah data abstrak menjadi bentuk fisik yang dapat
 dilihat (seperti panjang, posisi, bentuk, warna, dll) sangat berarti
@@ -78,12 +64,10 @@ data lebih efektif dan efisien.
 1.  Spesifikasi visualisasi
 2.  Pendekatan efisien untuk visualisasi data
 3.  Rekomendasi visualisasi data
-:::
 
-::: {.cell .markdown id="fRAGof1nwgwM"}
-## 2. Spesifikasi Visualisasi {#2-spesifikasi-visualisasi}
+## 2. Spesifikasi Visualisasi
 
-### 2.1 Spesifikasi dari Visualisasi Data {#21-spesifikasi-dari-visualisasi-data}
+### 2.1 Spesifikasi dari Visualisasi Data
 
 Secara umum, bahasa visualisasi data terdiri dari 3 bagian yaitu:
 
@@ -91,7 +75,7 @@ Secara umum, bahasa visualisasi data terdiri dari 3 bagian yaitu:
 2.  *Marks* (tipe, ukuran, legenda, keberagaman)
 3.  Pemetaan
 
-### 2.2 Kategorisasi Bahasa Visualisasi Data {#22-kategorisasi-bahasa-visualisasi-data}
+### 2.2 Kategorisasi Bahasa Visualisasi Data
 
 Strategi dalam mengkategorikan bahasa visualisasi data umumnya
 berdasarkan tingkat kemahalannya.
@@ -106,7 +90,7 @@ seperti ukuran kanvas, legenda, dan properti lainnya. Beberapa contoh
 visualisasi level tinggi yaitu ggplot2, Vega-Lite, Altair, Echarts,
 VizQL, dan ZQL.
 
-### 2.3 Operasi Visual Berbasis GUI {#23-operasi-visual-berbasis-gui}
+### 2.3 Operasi Visual Berbasis GUI
 
 Dibandingkan dengan visualisasi deklaratif, cara yang lebih ramah untuk
 pengguna dalam menyediakan spesifikasi adalah dengan mengikuti \"prinsip
@@ -128,7 +112,7 @@ menggunakan langkah-langkah *query* untuk menciptakan visualisasi
 multidimensi. DeepEye dan Voyager memungkinkan segi eksplorasi dan
 membantu pengguna dalam menavigasi visualisasinya dengan mudah.
 
-### 2.4 Spesifikasi yang tidak Ditentukan {#24-spesifikasi-yang-tidak-ditentukan}
+### 2.4 Spesifikasi yang tidak Ditentukan 
 
 Visualisasi tidaklah berarti jika tidak memberikan *insights* dari data.
 Namun, dalam banyak kasus, pengguna tidak begitu mengetahui semua aspek
@@ -142,12 +126,10 @@ visualisasi untuk menginterpretasikan masukan yang tidak ditentukan itu
 dalam berbagai cara yang mungkin. Jenis \"petunjuk\" pertama yaitu
 \"berbasis referensi\", yang kedua yaitu \"berbasis kata kunci\", dan
 yang ketiga yaitu \"berbasis bahasa alami\".
-:::
 
-::: {.cell .markdown id="6JpyEKQomomV"}
-## 3. Pendekatan Efisien untuk Visualisasi Data {#3-pendekatan-efisien-untuk-visualisasi-data}
+## 3. Pendekatan Efisien untuk Visualisasi Data
 
-### 3.1 Visualisasi Data Eksak {#31-visualisasi-data-eksak}
+### 3.1 Visualisasi Data Eksak 
 
 Banyak sistem visualisasi data membaca data dari database. Sistem juga
 memanipulasi data dari pernyataan SQL dan kemudian menggunakan alat
@@ -192,7 +174,7 @@ Terdapat dua tahap dalam memprediksi data:
 1.  Fase analisis prediksi
 2.  Memprediksi petak data
 
-### 3.2 Aproksimasi Visualisasi Data {#32-aproksimasi-visualisasi-data}
+### 3.2 Aproksimasi Visualisasi Data 
 
 Ketika volume data bertambah secara eksponen, pemrosesan data secara
 tradisional tidak bisa memenuhi proses interaksi yang cepat. Terdapat 3
@@ -202,7 +184,7 @@ perspektif:
 2.  Pengambilan sampel berbasis Inkremental
 3.  Berbasis Persepsi Manusia
 
-### 3.3 Visualisasi Data Progresif {#33-visualisasi-data-progresif}
+### 3.3 Visualisasi Data Progresif
 
 Banyak pekerjaan dalam aproksimasi visuualisasi data yang menghasilkan
 visualisasi progresif kepada pengguna. Selain pengambilan sampel
@@ -210,10 +192,8 @@ berbasis inkremental dan visualisasi data progresif, terdapat juga
 banyak pekerjaan yang menyediaka visualisasi progresif berdasarkan
 agregasi hierarki. Sistem tersebut membangun sebuah struktur hierari
 dengan mengagregasi data pada level yang berbeda-beda.
-:::
 
-::: {.cell .markdown id="Z_q_uJ6zjLcn"}
-## 4. Rekomendasi Visualisasi {#4-rekomendasi-visualisasi}
+## 4. Rekomendasi Visualisasi
 
 Visualisasi data adalah proses iteratif, dan poin utama dari para
 praktisi yaitu bahwa mereka terlibat dalam setiap langkah dalam proses
@@ -221,9 +201,9 @@ modifikasi. Mungkin terdapat beberapa solusi rekomendasi visualisasi
 yang memudahkan pengguna, dengan merekomendasikan visualisasi yang baik
 kepada para pengguna.
 
-### 4.1 Rekomendasi Berdasarkan Spesifikasi {#41-rekomendasi-berdasarkan-spesifikasi}
+### 4.1 Rekomendasi Berdasarkan Spesifikasi
 
-#### 4.1.1 Spesifikasi tidak Lengkap {#411-spesifikasi-tidak-lengkap}
+#### 4.1.1 Spesifikasi tidak Lengkap 
 
 Sistem rekomendasi visualisasi dengan ketentuan spesifikasi kosong tanpa
 masukan pengguna, sementara sistem rekomendasi dengan sebagian
@@ -243,7 +223,7 @@ sumber atau web, kemudian melatih sebuah model perangkingan yang
 mengambil masukan *X* sebagai *list* dari vektor, dan *Y* sebagai
 *output*nya.
 
-#### 4.1.2 Spesifikasi berbasis referensi {#412-spesifikasi-berbasis-referensi}
+#### 4.1.2 Spesifikasi berbasis referensi 
 
 Beberapa sistem rekomendasi visualisasi merekomendasikan berdasarkan
 referensi data atau referensi visualisasi. Secara khusus, sistem
@@ -261,23 +241,21 @@ pola, atau *insights*. Pengguna dapat menggambar tren atau pola sebagai
 visualisasi *V*, kemudian sistem merekomendasikan visualisasi *V\'*
 berdasarkan kesamaannya.
 
-### 4.2 Rekomendasi berbasis perilaku {#42-rekomendasi-berbasis-perilaku}
+### 4.2 Rekomendasi berbasis perilaku 
 
 Sistem rekomendasi berbasis perilaku menangkap perilaku pengguna sebagai
 masukan, kemudian menganggap tugas pengguna dan merekomendasikan
 visualisasi yang berguna berdasarkan tugas-tugas tersebut.
 
-### 4.3 Rekomendasi personalisasi {#43-rekomendasi-personalisasi}
+### 4.3 Rekomendasi personalisasi
 
 Sistem rekomendasi personalisasi menangkap perilaku historis pengguna
 sebagai masukan untuk merekomendasikan personalisasi visualisasi yang
 menarik.
-:::
 
-::: {.cell .markdown id="tJKyEtQ_pqzz"}
-## 5. Arah Penelitian Lainnya {#5-arah-penelitian-lainnya}
+## 5. Arah Penelitian Lainnya 
 
-### 5.1 Persiapan data untuk visualisasi data {#51-persiapan-data-untuk-visualisasi-data}
+### 5.1 Persiapan data untuk visualisasi data
 
 Nyatanya, data sangatlah kotor, dan memvisualisasikan data kotor
 memungkinkan kesalahan pengguna. Fenomena ini sudah diketahui sejak lama
@@ -289,7 +267,7 @@ deduplikasi, data kosong, dan deteksi *outlier*.
 
 *Peluang Penelitian*: mendeteksi visualisasi bias dan pembersihan data.
 
-### 5.2 Tolak ukur visualisasi data {#52-tolak-ukur-visualisasi-data}
+### 5.2 Tolak ukur visualisasi data
 
 Penting untuk mengembangkan tolak ukur untuk performa dan rekomendasi.
 Tolak ukur ini harus tepat untuk tugas analisis visual, menyediakan
@@ -298,14 +276,12 @@ rekomendasi, memiliki cakupan yang tinggi dan kulitas dari labelnya.
 
 *Peluang Penelitian*: kategorisasi visualisasi, melatih data.
 
-### 5.3 Visualisasi data untuk aplikasi berbasis *database* {#53-visualisasi-data-untuk-aplikasi-berbasis-database}
+### 5.3 Visualisasi data untuk aplikasi berbasis *database*
 
 *Peluang Penelitian*: visualisasi data untuk penemuan data, visualisasi
 data untuk debug data.
-:::
 
-::: {.cell .markdown id="rhoVPkS-sfdZ"}
-## 6. Kesimpulan {#6-kesimpulan}
+## 6. Kesimpulan 
 
 Visualisasi data adalah bidang yang berkembang pesat dan jumlahnya
 sangat banyak hasil penelitian baru dan sistem baru yang dikembangkan
@@ -316,4 +292,3 @@ Seperti disebutkan sebelumnya, sistem visualisasi data komersial bagus
 dalam kemudahan penggunaan dalam hal spesifikasi visualisasi data.
 Namun, banyak praktisi masih menderita karena efisiensi dan masalah
 rekomendasi sistem ini.
-:::
